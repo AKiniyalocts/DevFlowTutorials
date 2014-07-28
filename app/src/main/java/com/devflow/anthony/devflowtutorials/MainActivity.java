@@ -45,29 +45,17 @@ public class MainActivity extends FragmentActivity
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getFragmentManager();
         fragmentManager.beginTransaction()
-                .replace(R.id.container, new CustomTypefaceFragment(), CustomTypefaceFragment.TAG)
+                .replace(R.id.container, selectFragment(position), CustomTypefaceFragment.TAG)
                         .commit();
     }
 
-    public void onSectionAttached(int number) {
-        switch (number) {
-            case 1:
-                mTitle = getString(R.string.custom_typeface_frag_title);
-                break;
-            case 2:
-                mTitle = getString(R.string.title_section2);
-                break;
-            case 3:
-                mTitle = getString(R.string.title_section3);
-                break;
-        }
-    }
-
-    public Fragment SelectFragment(int pos){
+    // Select the appropriate fragment to inflate based upon position
+    public Fragment selectFragment(int pos){
         Fragment fragment = new Fragment();
         switch (pos){
             case 0:
                 fragment = CustomTypefaceFragment.newInstance();
+                mTitle = getString(R.string.custom_typeface_frag_title);
                 break;
         }
         return fragment;
@@ -100,7 +88,8 @@ public class MainActivity extends FragmentActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_about) {
+
             return true;
         }
         return super.onOptionsItemSelected(item);

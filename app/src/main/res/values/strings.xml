@@ -15,5 +15,6 @@
     <string name="custom_textview_title">Custom TextView</string>
     <string name="custom_edittext_title">Custom EditText</string>
     <string name="pinball_hint">Always playing clean.</string>
+    <string name="action_about">About</string>
 
 </resources>
