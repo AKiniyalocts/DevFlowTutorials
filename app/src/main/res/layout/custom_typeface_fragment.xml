@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.devflow.anthony.devflowtutorials.Views.RalewayTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_textview_title"
+        android:textSize="@dimen/title_size"
+        android:paddingBottom="@dimen/title_padding_bottom"
+        android:paddingTop="@dimen/title_padding_top"
+        android:paddingRight="@dimen/title_padding_side"
+        android:paddingLeft="@dimen/title_padding_side"
+        />
+    <com.devflow.anthony.devflowtutorials.Views.RalewayTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pinball"
+        android:paddingTop="@dimen/body_padding_top"
+        android:paddingLeft="@dimen/body_padding_sides"
+        android:paddingRight="@dimen/body_padding_sides"
+        android:textSize="@dimen/body_size"
+        />
+    <com.devflow.anthony.devflowtutorials.Views.RalewayTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_edittext_title"
+        android:textSize="@dimen/title_size"
+        android:paddingBottom="@dimen/title_padding_bottom"
+        android:paddingTop="@dimen/title_padding_top"
+        android:paddingRight="@dimen/title_padding_side"
+        android:paddingLeft="@dimen/title_padding_side"
+        />
+    <com.devflow.anthony.devflowtutorials.Views.RalewayEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/body_size"
+        android:paddingTop="@dimen/body_padding_top"
+        android:layout_marginRight="@dimen/body_padding_sides"
+        android:layout_marginLeft="@dimen/body_padding_sides"
+        android:hint="@string/pinball_hint"
+        />
+
+
+</LinearLayout>

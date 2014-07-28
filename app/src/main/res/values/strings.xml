@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DevFlow Tutorials</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="custom_typeface_frag_title">Custom Typeface</string>
+    <string name="pinball">Ever since I was a young boy, I\'ve played the silver ball. From Soho down to Brighton I must have played them all.</string>
+    <string name="pinball_title">Pinball Wizard</string>
+    <string name="custom_textview_title">Custom TextView</string>
+    <string name="custom_edittext_title">Custom EditText</string>
+    <string name="pinball_hint">Always playing clean.</string>
+
+</resources>
